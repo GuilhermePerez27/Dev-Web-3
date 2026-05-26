@@ -92,17 +92,14 @@ header {
     background-color: #F9EFE4;
     border-radius: 12px;
     padding: 15px;
-
     transition: transform 0.3s ease,
     box-shadow 0.3s ease;
-
     box-shadow: 0 2px 8px rgba(0,0,0,0.1);
 }
 
 #characters figure:hover,
 #game-areas figure:hover {
     transform: translateY(-8px);
-
     box-shadow: 0 8px 18px rgba(0,0,0,0.2);
 }
 
@@ -177,5 +174,54 @@ footer div {
     50% {background-color:#183721;}
     75% {background-color:#4D1C1C;}
     100% {background-color:#0F8C33;}
+}
+
+@media (max-width: 768px) {
+
+    #sites {
+        flex-direction: column;
+        gap: 0;
+        align-items: center;
+    }
+
+    #sites li {
+        width: 100%;
+        text-align: center;
+    }
+
+    #principal {
+        padding: 15px;
+    }
+
+    #characters {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #game-areas {
+        grid-template-columns: 1fr;
+    }
+
+    #characters img,
+    #game-areas img {
+        max-width: 100%;
+    }
+
+    footer div {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    h1 {
+        font-size: 2rem;
+    }
+
+    h2 {
+        font-size: 1.5rem;
+    }
+
+    p {
+        font-size: 1rem;
+    }
 }
 
