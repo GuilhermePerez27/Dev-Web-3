@@ -66,4 +66,15 @@ footer div {
     align-items: center;
     justify-content: center;
     gap: 10px;
+    animation-name: colorido;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes colorido {
+0% {background-color: #0F8C33;}
+25% {background-color:#4D1C1C;}
+50% {background-color:#183721;}
+75% {background-color:#4D1C1C;}
+100% {background-color:#0F8C33;}
 }
