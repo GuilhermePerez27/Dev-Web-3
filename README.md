@@ -4,4 +4,4 @@ Repositório da atividade 3 de matéria de Desenvolvimento Web do 2º bimestre d
 Desenvolvido por:
  - Guilherme Perez Soares da Silva
  - Henrique Yuji Toda
- - Nathan Mitchell Coreia Melo
+ - Nathan Mitchell de Melo Correia
