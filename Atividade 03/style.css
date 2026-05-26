@@ -1,0 +1,38 @@
+body {
+    margin: 0;
+    font-family: "Jersey 10", sans-serif;
+}
+
+header {
+    background-color: #8C1010;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    font-family: "Jersey 10", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+#sites {
+    margin-top: 0;
+    background-color: #0F8C33;
+    color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: flex-start;
+    margin-bottom: 0;
+    padding: 0px;
+    list-style-type: none;
+}
+
+#sites li :hover{
+    background-color: #4D1C1C;
+    color: rgb(255, 255, 255);
+}
+
+#sites a {
+    display: block;
+    padding: 20px 25px;
+    
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
